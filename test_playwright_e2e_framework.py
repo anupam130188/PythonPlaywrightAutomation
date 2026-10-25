@@ -17,6 +17,8 @@ from PageObjects.googlepage import GooglePage
 # after installation syntax : pytest -n 3(here 3 tells the no of workers in parallel to rn tests)
 #@pytest.mark.smoke
 
+# 
+#
 def test_google_search_cars24(browserInstance):
     # Using the GooglePage object for reusable methods
     google_page = GooglePage(browserInstance)
