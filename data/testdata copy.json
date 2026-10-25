@@ -1,0 +1,41 @@
+[
+    
+    {
+    "qa" : 
+    [
+        {
+            "qa_url": "/loginpagePractise/",
+            "qa_user_credentials" : {
+                "qa_user_email": "rahulshettyacademy",
+                "qa_user_password" : "Learning@830$3mK2"
+            },
+            "qa_product_search" :
+            {
+                "qa_data1" :"Samsung Note 8",
+                "qa_data2" :"iphone X"
+
+            }
+        }
+    ]
+},
+    {
+
+    "uat" : 
+    [
+        {
+            "uat_url": "/loginpagePractise/",
+            "uat_user_credentials" : {
+                "uat_user_email": "rahulshettyacademy",
+                "uat_user_password" : "Learning@830$3mK2"
+            },
+            "uat_product_search" :
+            {
+                "uat_data1" :"Samsung Note 8",
+                "uat_data2" :"iphone X"
+
+            }
+        }
+    ]
+}
+
+]

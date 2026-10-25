@@ -1,0 +1,29 @@
+[
+    
+    {
+    "qa" : 
+    [
+        {
+            "qa_url": "/loginpagePractise/",
+            "qa_user_credentials" : {
+                "qa_user_email": "rahulshettyacademy",
+                "qa_user_password" : "Learning@830$3mK2"
+            }
+        }
+    ]
+},
+    {
+
+    "uat" : 
+    [
+        {
+            "uat_url": "/loginpagePractise/",
+            "uat_user_credentials" : {
+                "uat_user_email": "rahulshettyacademy",
+                "uat_user_password" : "Learning@830$3mK2"
+            }
+        }
+    ]
+}
+
+]
