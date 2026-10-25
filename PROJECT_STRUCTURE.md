@@ -12,6 +12,7 @@ The framework is structured to separate test logic from page-specific interactio
 - **`PageObjects/`**: Contains the specific Page Object classes (e.g., `LoginPage`, `DashboardPage`, `GooglePage`). Each class encapsulates the selectors and methods required to interact with a specific page or feature.
 - **`data/`**: Stores test data in structured formats (`.json`, `.csv`), allowing tests to be data-driven and separate from the code.
 - **`utils/`**: Contains shared utility classes (e.g., `UIUtils.py`) that provide helper methods for common UI actions and assertions across the framework.
+
 - **`test-results/`**: Stores execution outputs, including logs and Playwright trace files for debugging.
 - **`assets/`**: Contains static assets like CSS files used for reporting or custom styling.
 
