@@ -50,7 +50,12 @@ jobs:
   post-execution:
     name: Post Execution Notification
     needs: test
+    if: always()
     runs-on: ubuntu-latest
     steps:
     - name: Success Message
+      if: needs.test.result == 'success'
       run: echo "test ran succsfully"
+    - name: Failure Message
+      if: needs.test.result == 'failure'
+      run: echo "test run failed"
